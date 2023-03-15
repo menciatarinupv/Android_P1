@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
         //al pulsar el botón ir a otra actividad
     public void botonPulsado(View quien) {
         Log.d("Boton", "Botón pulsado");
+        //que muestre la talla del string (lenght) de textoEnterWord en textoChacacters
+        textoCharacters.setText(String.valueOf(textoEnterWord.getText()).length() + "characters");
+        //primero .getText() y  value de .lenght()
+
 
     }
 
