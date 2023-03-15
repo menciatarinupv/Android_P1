@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     public void botonPulsado(View quien) {
         Log.d("Boton", "Botón pulsado");
         //que muestre la talla del string (lenght) de textoEnterWord en textoChacacters
-        textoCharacters.setText(String.valueOf(textoEnterWord.getText()).length() + "characters");
+        textoCharacters.setText(String.valueOf(textoEnterWord.getText()).length() + " characters");
         //primero .getText() y  value de .lenght()
 
 
